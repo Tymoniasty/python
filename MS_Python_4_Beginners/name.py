@@ -11,3 +11,7 @@ print('Hello' + first_name + last_name)
 print('Hello',first_name,last_name)
 #print with capitalised names
 print('Hi',first_name.capitalize(),last_name.capitalize())
+#testing output with place holders and format
+output = 'Hello, {} {}'.format(first_name, last_name)
+#testing formating 
+output = f'Hello, {first_name} {last_name}'
