@@ -31,5 +31,14 @@ number_1 = input('Whats your first number? ')
 number_2 = input('Whats your second number? ')
 print('Adding these numbers (input function returns variable as a srting):')
 print(number_1+number_2)
-print('Treat imput as numbers (either integer or floater):')
+#convert input to number either integer (int) or float:
+print('Treat input as numbers (floater) addition:')
 print(float(number_1)+int(number_2))
+print('Treat input as numbers (int) addition:')
+print(int(number_1)+int(number_2))
+
+#convert number varioable to string:
+days_in_February = 28
+#print(days_in_February+' total days in February')
+print('Treat input number variable (hardcoded) as a sting:')
+print(str(days_in_February)+' total days in February')
