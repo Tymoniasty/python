@@ -16,7 +16,10 @@ while  task !="":
 
 #print the task list
 print()
+length=len(todolist)-1
+heder0="Your 'To Do' list has"
 header="Your 'To Do' list is as follow: "
+print(heder0, str(length), "items!")
 print(header)
 print('-'* len(header))
 #variable for task numbers 'i'
